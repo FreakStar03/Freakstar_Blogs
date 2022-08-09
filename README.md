@@ -2,7 +2,7 @@
   Freakstar Blog
 </h1>
 
-**Demo Websites**: [**Link**](https://freakstar03.github.io/Freakstar_Blogs)
+**Demo Websites**: [**Link**](https://freakstarblogs.netlify.app/)
 
 ## 👋 Introduction
 

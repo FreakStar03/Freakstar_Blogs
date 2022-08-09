@@ -2,7 +2,7 @@ module.exports = {
   title: `freakstar.com`,
   description: `Developer blog`,
   language: `en`,
-  siteUrl: `https://www.freakstar.com`,
+  siteUrl: `https://freakstarblogs.netlify.app`,
   ogImage: `/og-image.png`, // Path to your in the 'static' folder
   comments: {
     utterances: {
