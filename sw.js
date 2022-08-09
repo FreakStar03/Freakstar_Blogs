@@ -27,20 +27,20 @@ workbox.core.clientsClaim();
  */
 self.__precacheManifest = [
   {
-    "url": "webpack-runtime-b5dcb6f4231014108602.js"
+    "url": "webpack-runtime-79f5a0a971d2fcc655a6.js"
   },
   {
-    "url": "styles.853e65090dc89bfbb4ac.css"
+    "url": "styles.f6025d9fb48a272f56b3.css"
   },
   {
     "url": "framework-13cbde69989c5542b382.js"
   },
   {
-    "url": "app-51098fa2071dcb34c997.js"
+    "url": "app-90514ba9feebebacead8.js"
   },
   {
     "url": "offline-plugin-app-shell-fallback/index.html",
-    "revision": "3225003c9bcb570420cb14ae70fc4a21"
+    "revision": "91351b787bfdd921768fd3f02618d0cd"
   },
   {
     "url": "static/webfonts/s/roboto/v30/KFOlCnqEu92Fr1MmSU5fBBc4.woff2"
@@ -55,11 +55,19 @@ self.__precacheManifest = [
     "url": "component---cache-caches-gatsby-plugin-offline-app-shell-js-2a762b97b18887ac7af6.js"
   },
   {
+    "url": "page-data/offline-plugin-app-shell-fallback/page-data.json",
+    "revision": "f2c002077289a7e1ac538802bc7f5314"
+  },
+  {
+    "url": "page-data/app-data.json",
+    "revision": "6e6709cc47b25fe3ec58f88d4f2e772b"
+  },
+  {
     "url": "polyfill-4688b9b8ef2ded6414c3.js"
   },
   {
     "url": "manifest.webmanifest",
-    "revision": "9c68247b72cdff5508f8fa35483261b3"
+    "revision": "e58ce417af00be822f4ce87b677db919"
   }
 ].concat(self.__precacheManifest || []);
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
@@ -164,12 +172,12 @@ const navigationRoute = new NavigationRoute(async ({ event }) => {
   lastNavigationRequest = event.request.url
 
   let { pathname } = new URL(event.request.url)
-  pathname = pathname.replace(new RegExp(`^`), ``)
+  pathname = pathname.replace(new RegExp(`^/Freakstar_Blogs`), ``)
 
   // Check for resources + the app bundle
   // The latter may not exist if the SW is updating to a new version
   const resources = await idbKeyval.get(`resources:${pathname}`)
-  if (!resources || !(await caches.match(`/app-51098fa2071dcb34c997.js`))) {
+  if (!resources || !(await caches.match(`/Freakstar_Blogs/app-90514ba9feebebacead8.js`))) {
     return await fetch(event.request)
   }
 
@@ -182,7 +190,7 @@ const navigationRoute = new NavigationRoute(async ({ event }) => {
     }
   }
 
-  const offlineShell = `/offline-plugin-app-shell-fallback/index.html`
+  const offlineShell = `/Freakstar_Blogs/offline-plugin-app-shell-fallback/index.html`
   const offlineShellWithKey = workbox.precaching.getCacheKeyForURL(offlineShell)
   return await caches.match(offlineShellWithKey)
 })
