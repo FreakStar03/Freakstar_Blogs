@@ -7,7 +7,6 @@ tags: Gh-pages Github-Action React
 categories: featured
 ---
 
-
 ![Potions Class](./image.png)
 
 ##### Create Empty Repository w/o readme or licences or any files, go to its screte tab and

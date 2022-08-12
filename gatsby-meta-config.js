@@ -1,20 +1,20 @@
 module.exports = {
-  title: `freakstar.com`,
-  description: `Developer blog`,
+  title: `chiragpadyal.me`,
+  description: `Developer blog by chirag padyal aka freakstar03`,
   language: `en`,
-  siteUrl: `https://freakstarblogs.netlify.app`,
+  siteUrl: `https://blogs.chiragpadyal.me`,
   ogImage: `/og-image.png`, // Path to your in the 'static' folder
   comments: {
     utterances: {
       repo: `freakstar03/Freakstar_Blogs`, // `zoomkoding/zoomkoding-gatsby-blog`,
     },
   },
-  ga: '0', // Google Analytics Tracking ID
+  ga: 'UA-237326017-1', // Google Analytics Tracking ID
   author: {
-    name: `freakstar`,
+    name: `Chirag Padyal`,
     bio: {
       role: `developer`,
-      description: ['UI/UX', 'Backend', 'Frontend'],
+      description: ['who like to write', 'who enjoys learning', 'interested in UI/UX', 'making something great'],
       thumbnail: 'sample.png', // Path to the image in the 'asset' folder
     },
     social: {
