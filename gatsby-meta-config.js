@@ -1,3 +1,7 @@
+require("dotenv").config({
+  path: `.env.${process.env.NODE_ENV}`
+})
+
 module.exports = {
   title: `chiragpadyal.me`,
   description: `Developer blog by chirag padyal aka freakstar03`,
@@ -9,7 +13,7 @@ module.exports = {
       repo: `freakstar03/Freakstar_Blogs`, // `zoomkoding/zoomkoding-gatsby-blog`,
     },
   },
-  ga: 'UA-237326017-1', // Google Analytics Tracking ID
+  ga: process.env.GA_TRACKING_ID, // Google Analytics Tracking ID
   author: {
     name: `Chirag Padyal`,
     bio: {
