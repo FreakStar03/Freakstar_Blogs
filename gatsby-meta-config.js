@@ -13,7 +13,7 @@ module.exports = {
       repo: `freakstar03/Freakstar_Blogs`, // `zoomkoding/zoomkoding-gatsby-blog`,
     },
   },
-  ga: '0-ga', // Google Analytics Tracking ID
+  ga: process.env.GA_TRACKING_ID, // Google Analytics Tracking ID
   author: {
     name: `Chirag Padyal`,
     bio: {
