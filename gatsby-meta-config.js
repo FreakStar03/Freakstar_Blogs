@@ -6,7 +6,7 @@ module.exports = {
   title: `chiragpadyal.me`,
   description: `Developer blog by chirag padyal aka freakstar03`,
   language: `en`,
-  siteUrl: `https://blogs.chiragpadyal.me`,
+  siteUrl: `https://chiragpadyal.me`,
   ogImage: `/og-image.png`, // Path to your in the 'static' folder
   comments: {
     utterances: {

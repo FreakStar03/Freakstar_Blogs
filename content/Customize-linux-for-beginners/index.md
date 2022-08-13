@@ -209,7 +209,7 @@ Below is example of oh-my-bash power-line-theme to install it follow the [Readme
 
 ## ❤️ Thank you
 
-That's it, i loved to share what i know about linux ricing with you all and hope you also liked my content ... do give a try to mine other works, i  hope we will meet again it then keep learning.
+That's it, i loved to share what i know about linux ricing with you all and hope you also liked my content ... do give a try to mine other works, i  hope we will meet again till then keep learning.
 
 ```toc
 
