@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-category-template-js",
+    "path": "/posts/linux",
+    "result": {"pageContext":{"currentCategory":"linux","categories":["All","linux","featured"],"edges":[{"node":{"id":"4e71ce29-bf0a-5150-be89-94940b7eb60f","excerpt":"Disclaimer: I am in no way a ricing expert. This guide is intended for fellow beginners confused on the very basics when it comes to the customization of their linux distro. Introduction Hi! If you are follower of r/unixporn you may have already came across various linux rice’s and know how cool they appear.\nIn this blog, i will try to share my experience in ricing.\nIf you’re not aware about the term ricing then, the phrase means to express the practice of customizing, souping-up, or making a u…","fields":{"slug":"/Customize-linux-for-beginners/"},"frontmatter":{"categories":"linux","title":"Customize linux look for beginners","date":"August 13, 2022"}},"next":{"fields":{"slug":"/auto-deploy-react-website-using-github-action/"}},"previous":null}]}},
+    "staticQueryHashes": ["1073350324","1956554647","2938748437"]}
