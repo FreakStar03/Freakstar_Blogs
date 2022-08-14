@@ -183,4 +183,7 @@ watch -n 10 ~/Pictures/Wallpapers/wallpaper.sh
 
 That's it, i loved to share what i know about shell script with you all and hope you also liked my content ... do give a try to mine other works, i  hope we will meet again till then keep learning. 
 
+```toc
+
+```
 
